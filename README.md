@@ -22,5 +22,9 @@ python3 main.py --images <IMAGES_FOLDER> --labels <LABELS_FOLDER>
 ```
 
 ```
-python3 main.py --images ../Videos/20231006_144024_tp00003/output/images/ --labels ../Videos/20231006_144024_tp00003/output/labels/ --output output --nprocess 2
+python3 main.py --images ../Videos/20231006_144024_tp00003/output/images/ --labels ../Videos/20231006_144024_tp00003/output/labels/ --output input --nprocess 2
+```
+
+```
+splitfolders --ratio .8 .1 .1 -- input/
 ```
