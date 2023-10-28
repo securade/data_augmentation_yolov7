@@ -20,3 +20,7 @@ pip install -r requirements.txt
 python3 main.py --images <IMAGES_FOLDER> --labels <LABELS_FOLDER> 
 --output <OUTPUT_FOLDER> --nprocess <NUMBER_OF_AUGMENTED_IMAGES>
 ```
+
+```
+python3 main.py --images ../Videos/20231006_144024_tp00003/output/images/ --labels ../Videos/20231006_144024_tp00003/output/labels/ --output output --nprocess 2
+```
